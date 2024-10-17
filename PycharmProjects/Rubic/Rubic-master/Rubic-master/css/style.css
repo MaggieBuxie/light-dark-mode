@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    color: white;
+    /*justify-content: space-between;*/
+    padding-right: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+
+}
+.components-button{
+    background-color: orange; /* Set the background color to orange */
+    color: white; /* Set the text color to white for contrast */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding for a better look */
+    border-radius: 5px; /* Optional: round the corners */
+    display: block;
+}
+ .underline-orange {
+            border-bottom: 2px solid orange; /* Create an orange underline */
+            display: inline-block; /* Make the underline only as wide as the text */
+            padding-bottom: 5px; /* Add some space between text and underline */
+        }
+.centered {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some top margin */
+        }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mssg{
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul li a {
+        margin-right: 15px; /* Reduced margin for smaller screens */
+    }
+
+    .contact-us-text h2 {
+        font-size: 1.5rem; /* Adjusted heading size for smaller screens */
+    }
+}
+#blankSpace{
+    width: 80%;
+    height: 10px;
+}
+
